@@ -1,8 +1,35 @@
-# React + Vite
+# NexXplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An application for the [futurist](https://github.com/ftrst/futurist-react) framework.
 
-Currently, two official plugins are available:
+This app receives information from a server-side proxy that renders the HTML for a given web page, they displays it within the app.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is more of an example that "works", but certainly can be refined.
+
+## Installing the App
+As with all Futurist Apps, this repo can be run isolated from the framework.
+
+To install the App, review the installation guide here: https://docs.futurist.io/framework/app_walkthrough/
+
+## Try It Out!
+
+NetXplorer (nxp) can be utilized as a standalone [Application](https://docs.futurist.io/framework/architecture/), without any reliance on the rest of the futurist framework.
+
+This is by design, to allow anyone to try before installing it into the larger project, should they choose to do so.
+
+Treat it as you would any other React project:
+
+1) Clone the repository:
+```
+git clone https://github.com/ftrst/ftrst-netxplorer
+```
+
+2) Install the packages:
+```
+npm install
+```
+
+3) Run the project:
+```
+npm dev
+```
